@@ -8,4 +8,5 @@ def r_code():
         code += add
     print(code)
 
-r_code()
+if __name__ == '__main__':
+    r_code()
