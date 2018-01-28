@@ -1,3 +1,4 @@
+#!/usr/bin/env pyton
 #__author:  CuiShuai
 #date: 2018/1/10
 
@@ -5,12 +6,7 @@ import threading
 from concurrent import futures
 import time
 import csv
-
-try:
-    from functools import namedtuple
-except ImportError:
-    from collections import namedtuple
-
+from collections import namedtuple
 import  requests
 
 header = ["aid","view","danmaku","reply","favorite","coin","share"]
