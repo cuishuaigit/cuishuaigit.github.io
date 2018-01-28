@@ -2,12 +2,12 @@
 #__author:  CuiShuai
 #date: 2018/1/10
 
-import threading
-from concurrent import futures
 import time
 import csv
-from collections import namedtuple
 import  requests
+import threading
+from concurrent import futures
+from collections import namedtuple
 
 header = ["aid","view","danmaku","reply","favorite","coin","share"]
 Video = namedtuple('Video',header)
